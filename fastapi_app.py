@@ -35,19 +35,6 @@ app = FastAPI()
 
     
 ### request
-class UserRequestData(BaseModel):
-    user_id: str 
-    request_time: str
-    slash_command_name : str
-    until_ranking: int
-
-class UserRequestDataQoq(BaseModel):
-    user_id: str 
-    request_time: str 
-    command: str 
-    command_group : str 
-    command_type : str 
-    input_params : dict
 
 class UserRequestDataDiscord(BaseModel):
     user_id: str 
