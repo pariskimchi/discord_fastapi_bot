@@ -29,7 +29,7 @@ bucket = "etf-stock-project-data-lake-investinglion"
 query_result_dir = "query_result_dir"
 img_query_dir = "img_query_dir"
 
-aws_access_key_id, aws_secret_access_key= ('AKIARHB5I5BIZPCAL3KH', 'aNOmpQuUiIbp9LyzD6KEFDeW5D0oWQiQS/WVZdmo')
+aws_access_key_id, aws_secret_access_key= 
 
 ### fastapi_app 
 app = FastAPI()
